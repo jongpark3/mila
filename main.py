@@ -17,6 +17,8 @@ from nlu.classifier import classify
 # Speech Synthesis
 engine = pyttsx3.init()
 
+a = 2
+
 def speak(text):
     engine.say(text)
     engine.runAndWait()
